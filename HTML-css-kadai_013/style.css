@@ -73,9 +73,11 @@ PC用のスタイル
     min-width: 375px;
     margin: 0;
   }
+
   #nav-pc{
     display: none;
   }
+
   #menu-sp{
     float: right;
     padding: 0;
@@ -91,30 +93,41 @@ PC用のスタイル
     display: none;
     z-index: 100;
   }
+
   #close{
     position: absolute;
     top: 20px;
     right: 20px;
   }
+
   #logo-sp{
     margin: 80px 0 30px 20px;
   }
+
   #nav-sp>a{
     display: block;
   }
+
   #nav-sp>a:link{
     color: #ffffff;
   }
+
   #nav-sp>a:visited{
     color: #ffffff;
   }
+
   #nav-sp>a:hover{
     color: #ffffff;
+  }
+
+  #nav-sp>a:hover{
     text-decoration: underline;
   }
+
   #nav-sp>a:active{
     color: #ffffff;
   }
+
   #nav-sp>.menu {
     text-decoration: none;
     display: block;
@@ -126,3 +139,6 @@ PC用のスタイル
     background-position: right top;
   }
 }
+
+
+
